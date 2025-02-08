@@ -1,0 +1,112 @@
+/* Futuristic navbar design */
+.navbar {
+    background: linear-gradient(45deg, #1e3c72, #2a5298);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.navbar:hover {
+    background: linear-gradient(45deg, #2a5298, #1e3c72);
+}
+
+/* Navbar brand futuristic style */
+.navbar-brand {
+    color: #00d4ff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #00d4ff;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+    text-shadow: 0 0 15px #00d4ff;
+}
+
+/* Button futuristic styles */
+.navbar-toggler {
+    border: 2px solid #ffffff;
+    transition: transform 0.3s ease, background 0.3s ease;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border-radius: 8px;
+}
+
+.navbar-toggler:hover {
+    transform: scale(1.1);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* Active link styles */
+.nav-link {
+    color: #e0e0e0 !important;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #00d4ff !important;
+    text-shadow: 0 0 10px #00d4ff;
+}
+
+.nav-link.active {
+    color: #f8b400 !important;
+    font-weight: bold;
+    text-shadow: 0 2px 5px rgba(255, 255, 255, 0.7);
+}
+
+/* Navbar collapse */
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-collapse .nav-item {
+    margin-left: 20px;
+}
+
+/* General futuristic design */
+body {
+    background: radial-gradient(circle at top, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* List group hover effect */
+.list-group-item:hover {
+    background: linear-gradient(45deg, #ff8a00, #e52e71);
+    color: #fff;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+/* Card futuristic look */
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer futuristic style */
+footer {
+    background: linear-gradient(45deg, #0f2027, #203a43);
+    text-align: center;
+    padding: 1rem;
+    font-size: 14px;
+    color: #bbb;
+}

@@ -1,0 +1,67 @@
+/* Futuristic navbar design */
+.navbar {
+    background: linear-gradient(45deg, #1e3c72, #2a5298);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+}
+
+.navbar:hover {
+    background: linear-gradient(45deg, #2a5298, #1e3c72);
+}
+
+/* Button futuristic styles */
+.navbar-toggler {
+    border: 2px solid #ffffff;
+    transition: transform 0.3s ease;
+}
+
+.navbar-toggler:hover {
+    transform: scale(1.1);
+}
+
+/* Active link styles */
+.nav-link.active {
+    color: #f8b400 !important;
+    font-weight: bold;
+    text-shadow: 0 2px 5px rgba(255, 255, 255, 0.7);
+}
+
+/* General futuristic design */
+body {
+    background: radial-gradient(circle at top, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* List group hover effect */
+.list-group-item:hover {
+    background: linear-gradient(45deg, #ff8a00, #e52e71);
+    color: #fff;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+/* Card futuristic look */
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer futuristic style (əgər əlavə etsəniz) */
+footer {
+    background: linear-gradient(45deg, #0f2027, #203a43);
+    text-align: center;
+    padding: 1rem;
+    font-size: 14px;
+    color: #bbb;
+}

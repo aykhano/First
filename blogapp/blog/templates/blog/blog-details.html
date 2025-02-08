@@ -13,14 +13,13 @@
 
                 <div class="card mb-3">
                     <div class="row g-0">
-                        <div class="col-md-3">
-                            <img src="{{ blog.image.url }}" alt="" class="img-fluid">
-                        </div>
-                        <div class="col-md-9">
+                            
+                        <div class="col-md-12">
                             <div class="card-body">
-                                <h5 class="card-title"> 
-                                    {{ blog.title }}
-                                </h5>
+                                <h1 class="card-title mb-3"> 
+                                    {{ blog.title|title }}
+                                </h1>
+                                <img src="{{ blog.image.url }}" alt="" class="img-fluid" >
                                 <p class="card-text">{{ blog.description|safe }}</p>
                             </div>
                         </div>
